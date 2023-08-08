@@ -26,10 +26,20 @@ const Main: React.FC = () => {
     </div>
   </div>
 
-<div className="order-1 md:order-2 relative flex justify-center items-center mt-4 sm:mt-0">
-    <img className="max-w-[80%] h-auto z-10" src={CircleImg} alt='circle image' />
-    <img className="max-w-[80%] h-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20" src={MobileImg} alt='mobile image' />
-  </div>
+  <div className="order-1 md:order-2 relative flex justify-center items-center mt-4 sm:mt-0">
+  <img
+    className="max-w-[80%] h-auto z-10"
+    src={CircleImg}
+    alt='circle image'
+  />
+  <img
+    className="animate-custom-bounce max-w-[80%] h-auto absolute top-50 left-50 -translate-x-1/2 -translate-y-1/2 z-20"
+    src={MobileImg}
+    alt='mobile image'
+  />
+</div>
+
+
 
         </div>
       </main>
