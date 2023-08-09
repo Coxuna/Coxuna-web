@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import StoreIcons from "../../../constants/StoreIcons";
-import MobileImg from "../../../assets/svg/mobilesvg.svg"
+// import MobileImg from "../../../assets/svg/mobilesvg.svg"
 import CircleImg from "../../../assets/svg/circle.svg"
 
 const Main: React.FC = () => {
@@ -34,7 +34,8 @@ const Main: React.FC = () => {
   />
   <img
     className="animate-custom-bounce max-w-[80%] h-auto absolute top-50 left-50 -translate-x-1/2 -translate-y-1/2 z-20"
-    src={MobileImg}
+    // src={MobileImg}
+    src='https://raw.githubusercontent.com/Coxuna/Coxuna-web/6a9ff2a40c2680a636f246f5d5e424e74f02ec34/src/assets/svg/mobilesvg.svg'
     alt='mobile image'
   />
 </div>
