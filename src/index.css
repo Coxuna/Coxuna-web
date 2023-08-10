@@ -32,5 +32,7 @@
 }
 
 .animate-custom-bounce {
-  animation: custom-bounce 5s infinite; /* Adjust the duration as needed */
+  animation: custom-bounce 5s infinite; 
 }
+
+
