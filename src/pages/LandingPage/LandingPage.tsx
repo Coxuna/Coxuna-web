@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar'
 import Main from './main/Main'
 import WhyChooseUs from './WhyChooseCouxuna/WhyChooseUs'
 import Section from './section/Section'
+import Community from './community/Community'
 
 const LandingPage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage: React.FC = () => {
         <Main/>
         <WhyChooseUs/>
         <Section/>
+        <Community/>
     </>
   )
 }

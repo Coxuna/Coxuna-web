@@ -12,7 +12,7 @@ const Main: React.FC = () => {
           {/* Order changes for mobile view */}
           <div className="order-1 md:order-2 space-y-4 md:space-y-7 lg:space-y-7 md:w-[60%] lg:w-[50%] xl:w-[40%]">
     <div>
-      <p className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-custom text-[#2E8AF6] font-bold">
+      <p className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-sans text-[#2E8AF6] font-bold">
         Unleashing the Power of Self-Pilot Mining!
       </p>
     </div>
