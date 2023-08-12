@@ -6,8 +6,16 @@ const StoreIcons: React.FC = () => {
   return (
     <div>
       <div className='flex space-x-5'>
-        <img className='max-w-[150px] h-auto' src={AppleStoreImg} alt="appleStore" />
-        <img className='max-w-[150px] h-auto' src={GoogleStoreImg} alt="googleStore" />
+      <img
+        className="max-w-[100px] md:max-w-[150px] w-auto h-auto"
+        src={AppleStoreImg}
+        alt="appleStore"
+      />
+      <img
+        className="max-w-[100px] md:max-w-[150px] w-auto h-auto"
+        src={GoogleStoreImg}
+        alt="googleStore"
+      />
       </div>
     </div>
   );
