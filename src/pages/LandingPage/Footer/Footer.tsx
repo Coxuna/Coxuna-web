@@ -51,6 +51,7 @@ const Footer: React.FC = () => {
                 <p className="text-neutral-600 text-sm md:text-xl font-normal">Privacy Policy</p>
                 <p className="text-neutral-600 text-sm md:text-xl font-normal">Terms & Conditions</p>
               </div>
+              
             </div>
           </div>
         </div>
