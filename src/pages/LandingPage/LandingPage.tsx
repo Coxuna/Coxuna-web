@@ -11,8 +11,9 @@ const LandingPage: React.FC = () => {
     <>
         <Navbar/>
         <Main/>
-        <WhyChooseUs/>
         <Section/>
+        <WhyChooseUs/>
+        
         <Community/>
         <Footer/>
     </>

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import StoreIcons from "../../../constants/StoreIcons";
-// import MobileImg from "../../../assets/svg/mobilesvg.svg"
+import MobileImg from "../../../assets/svg/mobilesvg.svg"
 import CircleImg from "../../../assets/svg/circle.svg"
 
 const Main: React.FC = () => {
@@ -13,12 +13,13 @@ const Main: React.FC = () => {
           <div className="order-1 md:order-2 space-y-4 md:space-y-7 lg:space-y-7 md:w-[60%] lg:w-[50%] xl:w-[40%]">
     <div>
       <p className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-sans text-[#2E8AF6] font-bold">
-        Unleashing the Power of Self-Pilot Mining!
+      Explore your Learning Playhouse, Earn Rewards.
       </p>
     </div>
     <div>
       <p className="text-sm md:text-base lg:text-lg xl:text-xl font-custom font-bold text-[#4C4D4F]">
-        Incentives for Creators and Users: Engage in a Cutting-Edge Ecosystem with Unparalleled Rewards!
+      Reignite your passion for Learning
+      Earn incentives.
       </p>
     </div>
     <div>
@@ -34,8 +35,8 @@ const Main: React.FC = () => {
   />
   <img
     className="animate-custom-bounce max-w-[80%] h-auto absolute top-50 left-50 -translate-x-1/2 -translate-y-1/2 z-20"
-    // src={MobileImg}
-    src='https://raw.githubusercontent.com/Coxuna/Coxuna-web/6a9ff2a40c2680a636f246f5d5e424e74f02ec34/src/assets/svg/mobilesvg.svg'
+    src={MobileImg}
+    // src='https://raw.githubusercontent.com/Coxuna/Coxuna-web/6a9ff2a40c2680a636f246f5d5e424e74f02ec34/src/assets/svg/mobilesvg.svg'
     alt='mobile image'
   />
 </div>

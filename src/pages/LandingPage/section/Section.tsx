@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import TwoPhones from "../../../assets/svg/2phones.svg";
-import Tape from "../../../assets/svg/yellowTape.svg";
 
 const Section: React.FC = () => {
   return (
@@ -18,27 +17,21 @@ const Section: React.FC = () => {
           <div className="flex flex-col justify-center md:w-1/2">
             <div className="w-full md:max-w-md mx-auto md:ml-0 font-sans text-center md:text-right">
               <span className="text-yellow-400 text-2xl md:text-4xl font-bold">
-                Embrace SocialFi with Coxuna:
+                What is Coxuna?
               </span>
-              <span className="text-white text-2xl md:text-4xl font-bold">
-                Redefining Social Finance
-              </span>
-              <div className="flex justify-center md:justify-end">
-                <img src={Tape} alt="tape" />
-              </div>
+              <span className="text-white text-2xl md:text-4xl font-bold"></span>
             </div>
 
             <div className="mt-4 md:mt-8 mx-auto md:mx-0 font-sans text-white text-base md:text-xl font-black leading-normal">
-              Introducing Coxuna, the innovative platform that fuses the best
-              of social media and decentralized finance (DeFi) – SocialFi!
+              Coxuna is a learning ecosystem that rewards coxins for their
+              learning engagement and ecosystem participation.
               <br />
               <br />
-              Unleash the power of SocialFi to monetize your content, enjoy
+              Unleash the power of the blockchain to learn, monetize your content, enjoy
               complete control, and be part of a thriving community.
               <br />
               <br />
-              Join Coxuna now and revolutionize the way you engage in social
-              finance.
+              Join Coxuna now and revolutionize the way you (l)earn.
             </div>
           </div>
         </section>

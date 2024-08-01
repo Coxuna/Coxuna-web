@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import StoreIcons from '../../../constants/StoreIcons';
 import Logo from '../../../assets/img/couxunaLogo.png';
 import TwitterLogo from '../../../assets/svg/twitterIcon.svg';
-import TelegramLogo from '../../../assets/svg/telegramIcon.svg';
-import Discord from '../../../assets/svg/discordIcon.svg';
-import EmailLogo from '../../../assets/svg/emailIcon.svg';
+// import TelegramLogo from '../../../assets/svg/telegramIcon.svg';
+// import Discord from '../../../assets/svg/discordIcon.svg';
+// import EmailLogo from '../../../assets/svg/emailIcon.svg';
 import LinkedinLogo from '../../../assets/svg/linkedinIcon.svg';
 
 const Footer: React.FC = () => {
@@ -17,8 +17,8 @@ const Footer: React.FC = () => {
               Download our Mobile App
             </div>
             <p className="w-full md:w-[514px] text-neutral-600 text-base md:text-xl font-medium leading-normal">
-              Maximize your mining capabilities, optimize efficiency, and boost your profits.
-              Download Coxuna now and unleash your mining potential.
+              Maximize your learning, optimize efficiency, and improve your self.
+              Download Coxuna now and unleash your full potential.
             </p>
           </div>
 
@@ -34,17 +34,17 @@ const Footer: React.FC = () => {
             <div className="flex flex-col md:flex-row justify-between items-center">
               <img className="h-10 md:h-12" src={Logo} alt="Logo" />
               <div className="flex space-x-2 md:space-x-5 items-center mt-3 md:mt-0">
-                <img className="h-5 md:h-6" src={TwitterLogo} alt="Twitter" />
-                <img className="h-5 md:h-6" src={TelegramLogo} alt="Telegram" />
+                <a href=' https://x.com/0xCoxuna'><img className="h-5 md:h-6" src={TwitterLogo} alt="Twitter" /></a>
+                {/* <img className="h-5 md:h-6" src={TelegramLogo} alt="Telegram" />
                 <img className="h-5 md:h-6" src={Discord} alt="Discord" />
-                <img className="h-5 md:h-6" src={EmailLogo} alt="Email" />
-                <img className="h-5 md:h-6" src={LinkedinLogo} alt="Linkedin" />
+                <img className="h-5 md:h-6" src={EmailLogo} alt="Email" /> */}
+                 <a href="https://www.linkedin.com/in/coxuna?originalSubdomain=ng"><img className="h-5 md:h-6" src={LinkedinLogo} alt="Linkedin" /></a>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row justify-between mt-6 md:mt-5">
               <p className="text-neutral-600 text-sm md:text-xl font-normal">
-                Copyright © Coxuna 2023 | All Rights Reserved
+                Copyright © Coxuna 2024 | All Rights Reserved
               </p>
 
               <div className="flex items-center space-x-4 md:space-x-8 mt-2 md:mt-0">
